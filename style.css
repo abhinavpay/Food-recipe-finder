@@ -1,0 +1,196 @@
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(240, 186, 87);
+    min-height: 100vh;
+}
+
+
+#nav_text{
+
+    font-size: 25px;
+     font-family: 'Kaushan Script', cursive;
+     color: black;
+     
+    
+
+}
+
+
+.heading{
+    font-size: 45px;
+     font-family: 'Kaushan Script', cursive;
+}
+
+
+.content{
+    
+    margin-top: 50px;
+    font-size: 16px;
+
+    text-align: center;
+    font-weight: 600;
+    overflow: hidden;
+    
+    
+}
+
+
+.search_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+    
+}
+
+.search_box input{
+    width: 500px;
+    height: 60px;
+    border: 5px solid rgb(229, 226, 226);
+    font-size: 25px;
+    
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 20px;
+}
+
+.search_box button{
+    border: 2px solid rgb(240, 152, 29);
+    outline: none;
+    font-size: 25px;
+    background-color: white;
+    color:rgb(237, 178, 68) ;
+    border-radius: 12px;
+    
+    margin-left: 25px;
+
+}
+
+.search_box button :hover{
+    background-color: orange;
+    color: white;
+}
+
+
+.card{
+    border: 3px solid white;
+    margin-top: 150px;
+    float: left;
+    
+    
+}
+
+.card-img-top{
+    width: 100%;
+
+}
+
+
+
+.container{
+   
+    
+    width: 65%;   
+    
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.youtube_link{
+    text-decoration: none;
+    margin-left: 35%;
+    color:white;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 25px;
+
+    border: none;
+
+}
+
+.youtube_link:hover{
+    background: red;
+    color: white;
+}
+
+
+/* footer */
+
+
+.bg-footer {
+    background-color: #33383c;
+    padding: 50px 0 30px;
+    margin-top: 30%;
+   
+
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-alt{
+    color: white;
+}
+
+
+/* footer button */
+
+
+.fa {  
+    padding: 2px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 60px;
+    border-radius: 25px;
+      
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+    
+  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }  
+  
+  
+  
+  
+
